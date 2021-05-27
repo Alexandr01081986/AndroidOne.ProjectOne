@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="35sp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/click"
+        android:textSize="25sp"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/click_else_ok"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="25sp"
+        android:textStyle="normal"/>
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weekDayTextAppearance="@android:color/black" />
+
+</LinearLayout>
